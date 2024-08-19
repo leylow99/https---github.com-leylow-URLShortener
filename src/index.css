@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    max-width: 100%;
+}
+
+ul,li{
+    list-style: none;
+}
+
+p{
+    line-height: 1.8;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins","sans-serif";
+}
+
+.max-width{
+    @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-5xl 2xl:px-0;
+}
+
+
+.but{
+    @apply text-slate-200 text-sm mt-1
+}
+
+.boost{
+    background-color: hsl(257, 11%, 22%);
+    height: 17.188rem;
+}
+
+.boost img{
+    height: 17.188rem;
+    @apply w-full
+}
+
+
+@media(min-width:1024px){
+    .card article:nth-child(3){
+        transform: translateY(2rem);
+    
+    }
+    
+    .card article:nth-child(4){
+        transform: translateY(4rem);
+    
+    }    
+}
+
+.line{
+    @apply bg-cyan-500 h-2 w-full absolute;
+    top: 50%;
+}
+
+.btn-cta{
+    @apply bg-cyan-500 py-2 px-4 text-white hover:opacity-75 transition-all duration-150 cursor-pointer;
+}
+
+.boost .boost-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shortener{
+    background-color: hsl(257, 11%, 22%);
+    height: 10.188rem;
+    border-radius: 8px;
+}
+
+.shortener img{
+    /* height: 10.188rem; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    @apply  rounded-lg;
+}
+
+.shortener .form{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    
+    
+    transform: translate(
+        -50%, -50%
+    ); 
+}
