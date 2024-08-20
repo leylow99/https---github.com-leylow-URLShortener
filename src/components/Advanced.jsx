@@ -21,7 +21,7 @@ export default function Advanced() {
             <div className="hidden lg:block absolute inset-0 left-1/2 w-1 bg-blue-500 transform -translate-x-1/2 h-full"></div> */}
 
             {/* Brand Recognition Card */}
-            <article className="bg-white p-6 rounded-lg shadow-lg relative">
+            <article className="bg-white p-6 rounded-lg shadow-lg relative ">
               <img
                 src={brand}
                 alt="Brand Recognition Icon"
