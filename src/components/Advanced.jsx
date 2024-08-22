@@ -18,7 +18,7 @@ export default function Advanced() {
           {/* Cards Container */}
           <div className="relative grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
             {/* Vertical Line for Larger Screens
-            <div className="hidden lg:block absolute inset-0 left-1/2 w-1 bg-blue-500 transform -translate-x-1/2 h-full"></div> */}
+            <div className="hidden lg:block absolute inset-0 left-1/2 w- bg-blue-500 transform -translate-x-1/2 h-full"></div> */}
 
             {/* Brand Recognition Card */}
             <article className="bg-white p-6 rounded-lg shadow-lg relative ">
